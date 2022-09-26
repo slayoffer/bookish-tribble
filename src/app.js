@@ -14,7 +14,7 @@ const Dog = require('../views/Dog');
 
 const app = express();
 
-app.use(morgan('dev'));
+// app.use(morgan('dev'));
 // Чтобы наши статические файлы были видны браузеру, мы должны их подключить
 app.use(express.static(path.join(__dirname, '../public/')));
 app.use(express.json());
