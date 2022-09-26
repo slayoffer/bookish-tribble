@@ -1,0 +1,12 @@
+h1 {
+    color: coral;
+}
+
+.owlImg {
+  max-width: 77px;
+}
+
+.mainDiv {
+  display: flex;
+  flex-wrap: wrap;
+}
